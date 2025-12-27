@@ -1,0 +1,129 @@
+esphome:
+  name: crayon
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret crayon_api_key
+
+ota:
+  - platform: esphome
+    password: !secret crayon_ota_password
+
+wifi:
+  ssid: !secret crayon_wifi_ssid
+  password: !secret crayon_wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Crayon Fallback Hotspot"
+    password: "password"
+
+captive_portal:
+
+# Button input on GPIO3
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO10
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: "Button"
+    on_press:
+      then:
+        - if:
+            condition:
+              light.is_on: rgb_light
+            then:
+              - light.turn_off:
+                  id: rgb_light
+                  transition_length: 2s
+            else:
+              - light.turn_on:
+                  id: rgb_light
+                  transition_length: 2s
+              - delay: 2s
+              - light.turn_on:
+                  id: rgb_light
+                  effect: "Rainbow"
+
+# RGB LED on GPIO0, 1, 2
+output:
+  - platform: ledc
+    pin: GPIO0
+    id: output_green
+  - platform: ledc
+    pin: GPIO1
+    id: output_blue
+  - platform: ledc
+    pin: GPIO3
+    id: output_red
+
+light:
+  - platform: rgb
+    name: "RGB Light"
+    id: rgb_light
+    red: output_red
+    green: output_green
+    blue: output_blue
+    
+    effects:
+      - random:
+          name: "Random Color"
+          transition_length: 5s
+          update_interval: 7s
+      - strobe:
+          name: "Rainbow"
+          colors:
+            - state: true
+              brightness: 100%
+              red: 100%
+              green: 0%
+              blue: 0%
+              duration: 6s
+              transition_length: 4s
+            - state: true
+              brightness: 100%
+              red: 100%
+              green: 100%
+              blue: 0%
+              duration: 6s
+              transition_length: 4s
+            - state: true
+              brightness: 100%
+              red: 0%
+              green: 100%
+              blue: 0%
+              duration: 6s
+              transition_length: 4s
+            - state: true
+              brightness: 100%
+              red: 0%
+              green: 100%
+              blue: 100%
+              duration: 6s
+              transition_length: 4s
+            - state: true
+              brightness: 100%
+              red: 0%
+              green: 0%
+              blue: 100%
+              duration: 6s
+              transition_length: 4s
+            - state: true
+              brightness: 100%
+              red: 100%
+              green: 0%
+              blue: 100%
+              duration: 6s
+              transition_length: 4s
