@@ -86,39 +86,42 @@ light:
       - flicker:
       - lambda:
           name: "Rainbow"
-          update_interval: 5.0s
-          # {"c":"#b381fe","n":7,"tr":4500,"up":5000,"name":"Rainbow","id":"rgb_light"}
+          update_interval: 6.0s
+          # {"c":"#bd5bff","n":8,"tr":5500,"up":6000,"name":"Rainbow","id":"rgb_light"}
           lambda: |-
             static int state = 0;
             auto call = id(rgb_light).turn_on();
-            call.set_transition_length(4500);
+            call.set_transition_length(5500);
             switch (state) {
               case 0:
-                call.set_rgb(0.7, 0.5, 1.0);
+                call.set_rgb(0.7, 0.4, 1.0);
                 break;
               case 1:
-                call.set_rgb(1.0, 0.5, 0.9);
+                call.set_rgb(1.0, 0.4, 0.8);
                 break;
               case 2:
-                call.set_rgb(1.0, 0.6, 0.5);
+                call.set_rgb(1.0, 0.4, 0.4);
                 break;
               case 3:
-                call.set_rgb(1.0, 1.0, 0.5);
+                call.set_rgb(1.0, 0.9, 0.4);
                 break;
               case 4:
-                call.set_rgb(0.6, 1.0, 0.5);
+                call.set_rgb(0.6, 1.0, 0.4);
                 break;
               case 5:
-                call.set_rgb(0.5, 1.0, 0.8);
+                call.set_rgb(0.4, 1.0, 0.6);
                 break;
               case 6:
+                call.set_rgb(0.4, 0.9, 1.0);
+                break;
+              case 7:
               default:
-                call.set_rgb(0.5, 0.7, 1.0);
+                call.set_rgb(0.4, 0.5, 1.0);
                 break;
             }
             call.set_publish(true);
             call.set_save(false);
             call.perform();
             state += 1;
-            if (state >= 7)
+            if (state >= 8)
               state = 0;
