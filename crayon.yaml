@@ -52,6 +52,7 @@ binary_sensor:
               - light.turn_on:
                   id: rgb_light
                   transition_length: 2s
+                  color_brightness: 80%
               - delay: 2s
               - light.turn_on:
                   id: rgb_light
@@ -82,48 +83,42 @@ light:
           name: "Random Color"
           transition_length: 5s
           update_interval: 7s
-      - strobe:
+      - flicker:
+      - lambda:
           name: "Rainbow"
-          colors:
-            - state: true
-              brightness: 100%
-              red: 100%
-              green: 0%
-              blue: 0%
-              duration: 6s
-              transition_length: 4s
-            - state: true
-              brightness: 100%
-              red: 100%
-              green: 100%
-              blue: 0%
-              duration: 6s
-              transition_length: 4s
-            - state: true
-              brightness: 100%
-              red: 0%
-              green: 100%
-              blue: 0%
-              duration: 6s
-              transition_length: 4s
-            - state: true
-              brightness: 100%
-              red: 0%
-              green: 100%
-              blue: 100%
-              duration: 6s
-              transition_length: 4s
-            - state: true
-              brightness: 100%
-              red: 0%
-              green: 0%
-              blue: 100%
-              duration: 6s
-              transition_length: 4s
-            - state: true
-              brightness: 100%
-              red: 100%
-              green: 0%
-              blue: 100%
-              duration: 6s
-              transition_length: 4s
+          update_interval: 5.0s
+          # {"c":"#b381fe","n":7,"tr":4500,"up":5000,"name":"Rainbow","id":"rgb_light"}
+          lambda: |-
+            static int state = 0;
+            auto call = id(rgb_light).turn_on();
+            call.set_transition_length(4500);
+            switch (state) {
+              case 0:
+                call.set_rgb(0.7, 0.5, 1.0);
+                break;
+              case 1:
+                call.set_rgb(1.0, 0.5, 0.9);
+                break;
+              case 2:
+                call.set_rgb(1.0, 0.6, 0.5);
+                break;
+              case 3:
+                call.set_rgb(1.0, 1.0, 0.5);
+                break;
+              case 4:
+                call.set_rgb(0.6, 1.0, 0.5);
+                break;
+              case 5:
+                call.set_rgb(0.5, 1.0, 0.8);
+                break;
+              case 6:
+              default:
+                call.set_rgb(0.5, 0.7, 1.0);
+                break;
+            }
+            call.set_publish(true);
+            call.set_save(false);
+            call.perform();
+            state += 1;
+            if (state >= 7)
+              state = 0;
