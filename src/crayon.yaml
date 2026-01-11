@@ -125,3 +125,21 @@ light:
             state += 1;
             if (state >= 8)
               state = 0;
+      - strobe:
+          name: "Nodus"
+          colors:
+            - brightness: 100%
+              red: 100%
+              green: 86%
+              blue: 0%
+              duration: 4s
+            - brightness: 0%
+              red: 0%
+              green: 0%
+              blue: 0%
+              duration: 4s
+            - brightness: 100%
+              red: 100%
+              green: 100%
+              blue: 100%
+              duration: 4s
