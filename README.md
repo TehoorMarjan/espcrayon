@@ -40,14 +40,14 @@ smart home integration through ESPHome.
    Copy the secrets template and fill in your details:
 
    ```bash
-   cd src
+   cd firmware
    cp secrets.tpl.yaml secrets.yaml
    ```
 
 3. **Flash the firmware**
 
    ```bash
-   cd src
+   cd firmware
    esphome run crayon.yaml
    ```
 
