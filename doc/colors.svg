@@ -1,0 +1,2120 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="880"
+    height="756"
+    viewBox="0 0 880 756"
+    font-family="sans-serif"
+    font-size="14"
+>
+
+
+    
+    
+
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="0" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="19.0"
+            fill="#ffffff"
+        >Blanc</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="4.0"
+            width="100"
+            height="20"
+            fill="#ffffff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="28" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="47.0"
+            fill="#ffffff"
+        >Rouge</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="32.0"
+            width="100"
+            height="20"
+            fill="#ff0000"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="56" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="75.0"
+            fill="#ffffff"
+        >Vermillon</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="60.0"
+            width="100"
+            height="20"
+            fill="#ff1a02"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="84" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="103.0"
+            fill="#ffffff"
+        >Peche</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="88.0"
+            width="100"
+            height="20"
+            fill="#ffc0b8"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="112" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="131.0"
+            fill="#ffffff"
+        >Barbie</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="116.0"
+            width="100"
+            height="20"
+            fill="#ff866a"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="140" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="159.0"
+            fill="#ffffff"
+        >Corail</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="144.0"
+            width="100"
+            height="20"
+            fill="#ff4401"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="168" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="187.0"
+            fill="#ffffff"
+        >Carotte</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="172.0"
+            width="100"
+            height="20"
+            fill="#ff6a1c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="196" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="215.0"
+            fill="#ffffff"
+        >Saumon</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="200.0"
+            width="100"
+            height="20"
+            fill="#ff9257"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="224" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="243.0"
+            fill="#ffffff"
+        >Abricot</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="228.0"
+            width="100"
+            height="20"
+            fill="#ff8b35"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="252" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="271.0"
+            fill="#ffffff"
+        >Tangerine</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="256.0"
+            width="100"
+            height="20"
+            fill="#ff7f00"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="280" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="299.0"
+            fill="#ffffff"
+        >Orange</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="284.0"
+            width="100"
+            height="20"
+            fill="#ff8811"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="308" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="327.0"
+            fill="#ffffff"
+        >Venitien</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="312.0"
+            width="100"
+            height="20"
+            fill="#ffb95c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="336" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="355.0"
+            fill="#ffffff"
+        >Beige</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="340.0"
+            width="100"
+            height="20"
+            fill="#ffdca1"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="364" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="383.0"
+            fill="#ffffff"
+        >Melon</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="368.0"
+            width="100"
+            height="20"
+            fill="#ffae19"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="392" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="411.0"
+            fill="#ffffff"
+        >Aurore</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="396.0"
+            width="100"
+            height="20"
+            fill="#ffca60"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="420" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="439.0"
+            fill="#ffffff"
+        >Ocre</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="424.0"
+            width="100"
+            height="20"
+            fill="#ffc832"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="448" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="467.0"
+            fill="#ffffff"
+        >Vanille</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="452.0"
+            width="100"
+            height="20"
+            fill="#ffe9ae"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="476" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="495.0"
+            fill="#ffffff"
+        >Mais</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="480.0"
+            width="100"
+            height="20"
+            fill="#ffde74"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="504" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="523.0"
+            fill="#ffffff"
+        >Miel</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="508.0"
+            width="100"
+            height="20"
+            fill="#ffd10b"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="532" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="551.0"
+            fill="#ffffff"
+        >Or</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="536.0"
+            width="100"
+            height="20"
+            fill="#ffd700"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="560" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="579.0"
+            fill="#ffffff"
+        >Paille</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="564.0"
+            width="100"
+            height="20"
+            fill="#ffe347"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="588" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="607.0"
+            fill="#ffffff"
+        >Beurre</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="592.0"
+            width="100"
+            height="20"
+            fill="#fff48d"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="616" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="635.0"
+            fill="#ffffff"
+        >Ecru</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="620.0"
+            width="100"
+            height="20"
+            fill="#ffffe0"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="644" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="663.0"
+            fill="#ffffff"
+        >Ivoire</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="648.0"
+            width="100"
+            height="20"
+            fill="#ffffd4"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="672" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="691.0"
+            fill="#ffffff"
+        >Flave</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="676.0"
+            width="100"
+            height="20"
+            fill="#ffffa7"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="700" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="719.0"
+            fill="#ffffff"
+        >Soufre</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="704.0"
+            width="100"
+            height="20"
+            fill="#ffff6b"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="0" y="728" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="6"
+            y="747.0"
+            fill="#ffffff"
+        >Jaune</text>
+
+        <!-- Color sample -->
+        <rect
+            x="166"
+            y="732.0"
+            width="100"
+            height="20"
+            fill="#ffff00"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+
+    
+    
+
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="0" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="19.0"
+            fill="#ffffff"
+        >Citron</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="4.0"
+            width="100"
+            height="20"
+            fill="#f7ff3c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="28" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="47.0"
+            fill="#ffffff"
+        >Chrome</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="32.0"
+            width="100"
+            height="20"
+            fill="#edff0c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="56" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="75.0"
+            fill="#ffffff"
+        >Chartreuse</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="60.0"
+            width="100"
+            height="20"
+            fill="#c8ff33"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="84" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="103.0"
+            fill="#ffffff"
+        >Pistache</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="88.0"
+            width="100"
+            height="20"
+            fill="#c5ff78"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="112" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="131.0"
+            fill="#ffffff"
+        >Lime</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="116.0"
+            width="100"
+            height="20"
+            fill="#9fff38"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="140" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="159.0"
+            fill="#ffffff"
+        >Anis</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="144.0"
+            width="100"
+            height="20"
+            fill="#aeff5d"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="168" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="187.0"
+            fill="#ffffff"
+        >Absinthe</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="172.0"
+            width="100"
+            height="20"
+            fill="#92ff57"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="196" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="215.0"
+            fill="#ffffff"
+        >Amande</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="200.0"
+            width="100"
+            height="20"
+            fill="#a9ff8c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="224" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="243.0"
+            fill="#ffffff"
+        >Prairie</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="228.0"
+            width="100"
+            height="20"
+            fill="#68ff46"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="252" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="271.0"
+            fill="#ffffff"
+        >Lichen</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="256.0"
+            width="100"
+            height="20"
+            fill="#afffa6"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="280" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="299.0"
+            fill="#ffffff"
+        >Pomme</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="284.0"
+            width="100"
+            height="20"
+            fill="#41ff2d"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="308" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="327.0"
+            fill="#ffffff"
+        >Vert</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="312.0"
+            width="100"
+            height="20"
+            fill="#00ff00"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="336" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="355.0"
+            fill="#ffffff"
+        >Jade</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="340.0"
+            width="100"
+            height="20"
+            fill="#93ff9d"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="364" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="383.0"
+            fill="#ffffff"
+        >Perroquet</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="368.0"
+            width="100"
+            height="20"
+            fill="#3dff4f"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="392" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="411.0"
+            fill="#ffffff"
+        >Menthe</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="396.0"
+            width="100"
+            height="20"
+            fill="#56ff90"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="420" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="439.0"
+            fill="#ffffff"
+        >Emeraude</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="424.0"
+            width="100"
+            height="20"
+            fill="#01ff68"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="448" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="467.0"
+            fill="#ffffff"
+        >Opaline</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="452.0"
+            width="100"
+            height="20"
+            fill="#acffe2"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="476" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="495.0"
+            fill="#ffffff"
+        >Turquoise</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="480.0"
+            width="100"
+            height="20"
+            fill="#25ffea"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="504" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="523.0"
+            fill="#ffffff"
+        >Givre</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="508.0"
+            width="100"
+            height="20"
+            fill="#9cffff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="532" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="551.0"
+            fill="#ffffff"
+        >Aiguemarine</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="536.0"
+            width="100"
+            height="20"
+            fill="#7cffff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="560" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="579.0"
+            fill="#ffffff"
+        >Cyan</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="564.0"
+            width="100"
+            height="20"
+            fill="#00ffff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="588" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="607.0"
+            fill="#ffffff"
+        >Celeste</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="592.0"
+            width="100"
+            height="20"
+            fill="#29d3ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="616" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="635.0"
+            fill="#ffffff"
+        >Azurin</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="620.0"
+            width="100"
+            height="20"
+            fill="#a9eaff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="644" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="663.0"
+            fill="#ffffff"
+        >Auvergne</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="648.0"
+            width="100"
+            height="20"
+            fill="#7adcff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="672" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="691.0"
+            fill="#ffffff"
+        >Ceruleen</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="676.0"
+            width="100"
+            height="20"
+            fill="#10acff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="700" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="719.0"
+            fill="#ffffff"
+        >Fumee</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="704.0"
+            width="100"
+            height="20"
+            fill="#d3eeff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="300" y="728" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="306"
+            y="747.0"
+            fill="#ffffff"
+        >Roi</text>
+
+        <!-- Color sample -->
+        <rect
+            x="466"
+            y="732.0"
+            width="100"
+            height="20"
+            fill="#369aff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+
+    
+    
+
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="0" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="19.0"
+            fill="#ffffff"
+        >Azur</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="4.0"
+            width="100"
+            height="20"
+            fill="#007fff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="28" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="47.0"
+            fill="#ffffff"
+        >Ciel</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="32.0"
+            width="100"
+            height="20"
+            fill="#77b5ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="56" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="75.0"
+            fill="#ffffff"
+        >Charrette</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="60.0"
+            width="100"
+            height="20"
+            fill="#b6d0ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="84" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="103.0"
+            fill="#ffffff"
+        >Electrique</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="88.0"
+            width="100"
+            height="20"
+            fill="#2c75ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="112" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="131.0"
+            fill="#ffffff"
+        >Pervenche</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="116.0"
+            width="100"
+            height="20"
+            fill="#ccccff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="140" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="159.0"
+            fill="#ffffff"
+        >Bleu</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="144.0"
+            width="100"
+            height="20"
+            fill="#0000ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="168" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="187.0"
+            fill="#ffffff"
+        >Majorelle</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="172.0"
+            width="100"
+            height="20"
+            fill="#6f5cff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="196" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="215.0"
+            fill="#ffffff"
+        >Lavande</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="200.0"
+            width="100"
+            height="20"
+            fill="#a28dff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="224" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="243.0"
+            fill="#ffffff"
+        >Persan</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="228.0"
+            width="100"
+            height="20"
+            fill="#6500ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="252" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="271.0"
+            fill="#ffffff"
+        >Indigo</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="256.0"
+            width="100"
+            height="20"
+            fill="#7c1cff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="280" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="299.0"
+            fill="#ffffff"
+        >Parme</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="284.0"
+            width="100"
+            height="20"
+            fill="#e2afff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="308" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="327.0"
+            fill="#ffffff"
+        >Lilas</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="312.0"
+            width="100"
+            height="20"
+            fill="#dd7bff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="336" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="355.0"
+            fill="#ffffff"
+        >Mauve</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="340.0"
+            width="100"
+            height="20"
+            fill="#ff8aff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="364" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="383.0"
+            fill="#ffffff"
+        >Magenta</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="368.0"
+            width="100"
+            height="20"
+            fill="#ff00ff"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="392" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="411.0"
+            fill="#ffffff"
+        >Violet</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="396.0"
+            width="100"
+            height="20"
+            fill="#ff1aaa"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="420" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="439.0"
+            fill="#ffffff"
+        >Fushia</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="424.0"
+            width="100"
+            height="20"
+            fill="#ff0085"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="448" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="467.0"
+            fill="#ffffff"
+        >Bonbon</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="452.0"
+            width="100"
+            height="20"
+            fill="#ff43a1"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="476" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="495.0"
+            fill="#ffffff"
+        >Macgowan</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="480.0"
+            width="100"
+            height="20"
+            fill="#ff88ba"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="504" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="523.0"
+            fill="#ffffff"
+        >Rubis</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="508.0"
+            width="100"
+            height="20"
+            fill="#ff136c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="532" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="551.0"
+            fill="#ffffff"
+        >Rose</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="536.0"
+            width="100"
+            height="20"
+            fill="#ff6c9f"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="560" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="579.0"
+            fill="#ffffff"
+        >Dragee</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="564.0"
+            width="100"
+            height="20"
+            fill="#ffbfd2"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="588" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="607.0"
+            fill="#ffffff"
+        >Framboise</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="592.0"
+            width="100"
+            height="20"
+            fill="#ff385c"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="616" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="635.0"
+            fill="#ffffff"
+        >Terracotta</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="620.0"
+            width="100"
+            height="20"
+            fill="#ff6172"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="644" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="663.0"
+            fill="#ffffff"
+        >Vermeil</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="648.0"
+            width="100"
+            height="20"
+            fill="#ff0821"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="672" width="280" height="28" fill="#171717"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="691.0"
+            fill="#ffffff"
+        >Incarnadin</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="676.0"
+            width="100"
+            height="20"
+            fill="#ff96a0"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+        
+        
+
+        <!-- Row background -->
+        
+        <rect x="600" y="700" width="280" height="28" fill="#222222"/>
+        
+
+        <!-- Color name -->
+        <text
+            x="606"
+            y="719.0"
+            fill="#ffffff"
+        >Grenadine</text>
+
+        <!-- Color sample -->
+        <rect
+            x="766"
+            y="704.0"
+            width="100"
+            height="20"
+            fill="#ff3d44"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    
+
+</svg>

@@ -1,0 +1,58 @@
+{# layout constants #}
+{% set row_height = 28 %}
+{% set name_col_width = 160 %}
+{% set color_col_width = 120 %}
+{% set padding = 6 %}
+{% set column_gap = 20 %}
+
+{% set column_width = name_col_width + color_col_width %}
+{% set num_columns = columns_of_colors | length %}
+{% set max_rows = columns_of_colors | map(attribute=1) | map('length') | max %}
+
+{% set width = num_columns * column_width + (num_columns - 1) * column_gap %}
+{% set height = row_height * max_rows %}
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="{{ width }}"
+    height="{{ height }}"
+    viewBox="0 0 {{ width }} {{ height }}"
+    font-family="sans-serif"
+    font-size="14"
+>
+
+{% for column, colors in columns_of_colors %}
+    {% set col_index = loop.index0 %}
+    {% set x_offset = col_index * (column_width + column_gap) %}
+
+    {% for name, hexcolor in colors %}
+        {% set row = loop.index0 %}
+        {% set y = row * row_height %}
+
+        <!-- Row background -->
+        {% if row % 2 == 0 %}
+        <rect x="{{ x_offset }}" y="{{ y }}" width="{{ column_width }}" height="{{ row_height }}" fill="#171717"/>
+        {% else %}
+        <rect x="{{ x_offset }}" y="{{ y }}" width="{{ column_width }}" height="{{ row_height }}" fill="#222222"/>
+        {% endif %}
+
+        <!-- Color name -->
+        <text
+            x="{{ x_offset + padding }}"
+            y="{{ y + row_height / 2 + 5 }}"
+            fill="#ffffff"
+        >{{ name }}</text>
+
+        <!-- Color sample -->
+        <rect
+            x="{{ x_offset + name_col_width + padding }}"
+            y="{{ y + (row_height - 20) / 2 }}"
+            width="100"
+            height="20"
+            fill="{{ hexcolor }}"
+            stroke="#cecece"
+            stroke-width="0.8"
+        />
+    {% endfor %}
+{% endfor %}
+</svg>
