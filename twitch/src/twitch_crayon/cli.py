@@ -25,7 +25,7 @@ crayon = CrayonTwitchController(base_url=BASE_URL, token=TOKEN)
 
 # ## Twitch Chat Commands
 async def crayon_command(cmd: ChatCommand):
-    reply = await crayon.do_twitch_command(cmd.parameter)
+    reply = await crayon.do_twitch_command(cmd.parameter, cmd.user.name)
     await cmd.reply(reply)
 
 async def usage_command(cmd: ChatCommand):

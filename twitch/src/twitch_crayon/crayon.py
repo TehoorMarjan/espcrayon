@@ -1,7 +1,7 @@
 from .colors import COLORS, EFFECTS
 
 import httpx
-import os
+import asyncio
 import re
 import unicodedata
 
@@ -10,6 +10,7 @@ type Effect = str | None
 
 
 class CrayonTwitchController:
+    COOLDOWN = 60.0  # seconds
 
     _re_anycolor = re.compile(
         r"""
@@ -48,6 +49,7 @@ class CrayonTwitchController:
             "Authorization": f"Bearer {token}",
             "content-type": "application/json",
         }
+        self.last_requester: str | None = None
 
     def parse_color_param(self, param: str) -> tuple[Color, Effect]:
         """
@@ -110,9 +112,21 @@ class CrayonTwitchController:
             )
             return response.status_code == httpx.codes.OK
 
-    async def do_twitch_command(self, parameter: str):
+    async def do_twitch_command(self, parameter: str, requester: str) -> str:
         if len(parameter) == 0:
             return "J'ai besoin d'un paramètre. -> !usage"
+        
+        # When a user requests a color change, prevent other users from
+        # interfering for a cooldown period. Same user can change again
+        # the color during the cooldown, but it will not reset the timer.
+        if self.last_requester is not None:
+            if self.last_requester != requester:
+                return (
+                    f"Attends un peu, {self.last_requester} vient juste de "
+                    "changer la couleur."
+                )
+        else:
+            asyncio.create_task(self.cooldown(requester))
 
         try:
             color, effect = self.parse_color_param(parameter)
@@ -127,3 +141,8 @@ class CrayonTwitchController:
                 "J'ai pas pu changer la couleur du crayon, mais c'est pas toi, "
                 "c'est ma faute."
             )
+
+    async def cooldown(self, requester: str):
+        self.last_requester = requester
+        await asyncio.sleep(self.COOLDOWN)
+        self.last_requester = None
