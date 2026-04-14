@@ -19,13 +19,13 @@ ota:
     password: !secret crayon_ota_password
 
 wifi:
-  ssid: !secret crayon_wifi_ssid
-  password: !secret crayon_wifi_password
+  output_power: 8.5dB
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Crayon Fallback Hotspot"
-    password: "password"
+    password: "00000000"
+    ap_timeout: 20s
 
 captive_portal:
 
