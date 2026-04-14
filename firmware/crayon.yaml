@@ -29,6 +29,10 @@ wifi:
 
 captive_portal:
 
+web_server:
+  port: 80
+  version: 3
+
 # Button input on GPIO3
 binary_sensor:
   - platform: gpio
@@ -41,6 +45,7 @@ binary_sensor:
     name: "Button"
     on_press:
       then:
+        - script.execute: hold_reset_arm
         - if:
             condition:
               light.is_on: rgb_light
@@ -57,6 +62,53 @@ binary_sensor:
               - light.turn_on:
                   id: rgb_light
                   effect: "Rainbow"
+    on_release:
+      then:
+        - script.stop: hold_reset_arm
+
+script:
+  - id: hold_reset_arm
+    mode: restart
+    then:
+      # Button should be pressed 5 seconds
+      - delay: 5s
+      # Blink the lamp 3 times to indicate that it's going to reset
+      - light.turn_off:
+          id: rgb_light
+          transition_length: 50ms
+      - delay: 200ms
+      - light.turn_on:
+          id: rgb_light
+          transition_length: 50ms
+      - delay: 200ms
+      - light.turn_off:
+          id: rgb_light
+          transition_length: 50ms
+      - delay: 200ms
+      - light.turn_on:
+          id: rgb_light
+          transition_length: 50ms
+      - delay: 200ms
+      - light.turn_off:
+          id: rgb_light
+          transition_length: 50ms
+      - delay: 200ms
+      - light.turn_on:
+          id: rgb_light
+          transition_length: 50ms
+      - delay: 200ms
+      # Factory reset the device
+      - script.execute: factory_reset_sequence
+
+  - id: factory_reset_sequence
+    mode: single
+    then:
+      - button.press: factory_reset_device
+
+button:
+  - platform: factory_reset
+    id: factory_reset_device
+    internal: true
 
 # RGB LED on GPIO0, 1, 2
 output:
